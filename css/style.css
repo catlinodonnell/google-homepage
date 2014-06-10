@@ -1,0 +1,152 @@
+body {
+	height: 100%;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: #222;
+	margin: 0;
+}
+
+/**
+*
+* =misc
+*
+**/
+ ul {
+ 	list-style-type: none;
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+
+ li {
+ 	display: inline;
+ }
+
+p a {
+	margin: 3px;
+	color: #12c;
+}
+
+a {
+	color: #222;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/**
+*
+* =container
+*
+**/
+.container {
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	margin: 0 auto -40px;
+}
+
+
+/**
+*
+* =nav
+*
+**/
+.nav {
+	margin-top: 20px;
+	margin-right: 30px;
+	text-align: right;
+}
+
+.nav li {
+	padding-right: 12px;
+}
+
+/**
+*
+* =logo
+* =search
+*
+**/
+.middle {
+	margin-top: 156px;
+
+}
+
+.middle p {
+	text-align: center;
+	padding-top: 5px;
+}
+
+.logo img {
+	display: block;
+	margin: 0 auto;
+	width: 269px;
+ }
+
+.search form {
+	padding-top: 23px;
+	text-align: center;
+}
+
+.search input {
+	width: 572px;
+	height: 30px;
+	border: 1px solid #D8D8D8;
+}
+
+.search button {
+	margin: 16px 6px;
+	background-color: #F4F4F4;
+	border: 1px solid #D8D8D8;
+	padding: 6px 8px 7px 8px;
+	color: #444;
+	font-size: 11px;
+	font-weight: bold;
+}
+/**
+*
+* =footer
+*
+**/
+.bottom {
+	background: #F2F2F2;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #E4E4E4;
+}
+
+.bottom a {
+	color: #666;
+}
+
+ /**
+ *
+ * =lfooter
+ *
+ **/
+ .lfoot {
+ 	margin: 12px 0 0 30px;
+ 	float: left;
+ }
+
+ .lfoot li {
+ 	padding-right: 27px;
+ }
+
+ /**
+ *
+ * =rfooter
+ *
+ **/
+ .rfoot {
+  	margin: 12px 30px 0 0;
+ 	float: right;
+ }
+
+.rfoot li {
+	padding-left: 27px;
+}
